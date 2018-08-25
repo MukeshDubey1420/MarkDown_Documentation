@@ -87,8 +87,3 @@ By convention, em tags appear in `italics` while `strong` tags appear in `bold`.
 * You can create two types of lists (just like in HTML)
  * Unordered lists:- use `*, +, or -` followed by a space.
  * Ordered lists:- use numbers followed by periods and a space.
-
-
-
-
- 
