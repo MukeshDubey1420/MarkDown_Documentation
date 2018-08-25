@@ -311,11 +311,21 @@ Content in the first column | Content in the second column
 
 [Click this Link to Have Aa list of Complete Cheet Sheet For Emoji's That are used in Markdown.](https://www.webfx.com/tools/emoji-cheat-sheet/ "Github Emoji Cheet Sheet")
 
+Typing `:` will bring up a list of suggested emoji. The list will filter as you type, so once you find the emoji you're looking for, press Tab or Enter to complete the highlighted result.
+
 ```
 Syntax--
 Designed With :heart: by  [@MukeshDubey1420](https://mukeshdubeyportfolio.netlify.com/   "My PortFolio Link")
 ```
 
 Designed With :heart: by  [@MukeshDubey1420](https://mukeshdubeyportfolio.netlify.com/   "My PortFolio Link")
+
+### Ignoring Markdown formatting
+* You can tell GitHub to ignore (or escape) Markdown formatting by using `\` before the Markdown character.
+
+`Let's rename \*our-new-project\* to \*our-old-project\*.`
+
+Let's rename \*our-new-project\* to \*our-old-project\*.
+
 
 ## Thank You ..:relaxed:
