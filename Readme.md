@@ -1,6 +1,7 @@
-## Markdown is a way to style text on the web. You control the display of the document; formatting words as **bold** or *italic*, adding images, and creating lists are just a few of the things we can do with Markdown.
+### Markdown is a way to style text on the web. You control the display of the document; formatting words as **bold** or *italic*, adding images, and creating lists are just a few of the things we can do with Markdown.
 ## Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like `#` or `*`.
-### Markdown is a **Text-to-HTML conversion tool** for web writers. Markdown allows  you to write using an *easy-to-read, easy-to-write plain text format, then convert it  to structurally valid XHTML (or HTML)*.
+
+#### Markdown is a **Text-to-HTML conversion tool** for web writers. Markdown allows  you to write using an *easy-to-read, easy-to-write plain text format, then convert it  to structurally valid XHTML (or HTML)*.
 
 ## How to Write Markdown ..??
 
@@ -222,7 +223,7 @@ They also increase the accessibility of your page as they can be processed  by s
 
 For example
 ```
-![Team Decider](https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FDZqznVPVAAAEvF_.jpg&imgrefurl=https%3A%2F%2Ftwitter.com%2FMukeshDubey1420%2Fstatus%2F980293391668756481&docid=yq6j10KFx_TtCM&tbnid=kerUp76GqMBSCM%3A&vet=10ahUKEwikuarVvofdAhXVV30KHS2wAaQQMwg3KAQwBA..i&w=1200&h=900&itg=1&bih=943&biw=1920&q=mukeshdubey1420&ved=0ahUKEwikuarVvofdAhXVV30KHS2wAaQQMwg3KAQwBA&iact=mrc&uact=8 “Team Decider!")
+![Mukesh Dubey](https://avatars1.githubusercontent.com/u/25473584?s=460&v=4  "Mukesh Dubey")
 
 ```
-![TeamDecider](https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FDZqznVPVAAAEvF_.jpg&imgrefurl=https%3A%2F%2Ftwitter.com%2FMukeshDubey1420%2Fstatus%2F980293391668756481&docid=yq6j10KFx_TtCM&tbnid=kerUp76GqMBSCM%3A&vet=10ahUKEwikuarVvofdAhXVV30KHS2wAaQQMwg3KAQwBA..i&w=1200&h=900&itg=1&bih=943&biw=1920&q=mukeshdubey1420&ved=0ahUKEwikuarVvofdAhXVV30KHS2wAaQQMwg3KAQwBA&iact=mrc&uact=8)
+![Mukesh Dubey](https://avatars1.githubusercontent.com/u/25473584?s=460&v=4  "Mukesh Dubey")
