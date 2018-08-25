@@ -87,6 +87,7 @@ This Output will Look Like This ,
 I am an *Italic* Text.
 and , I am also an _Italic_ Text.
 I am **Bold** Text .
+and i am also __Bold__
 But , I am _**Bold & Italic**_ Text.
 
 <del>I am Strike Through tag</del>
@@ -99,6 +100,7 @@ I am an *Italic* Text.
 and , I am also an _Italic_ Text.
 
 I am **Bold** Text .
+and i am also __Bold__
 
 But , I am _**Bold & Italic**_ Text.
 
@@ -308,6 +310,11 @@ Content in the first column | Content in the second column
 ### Emojis For Markdown.
 
 [Click this Link to Have Aa list of Complete Cheet Sheet For Emoji's That are used in Markdown.](https://www.webfx.com/tools/emoji-cheat-sheet/ "Github Emoji Cheet Sheet")
+
+```
+Syntax--
+Designed With :heart: by  [@MukeshDubey1420](https://mukeshdubeyportfolio.netlify.com/   "My PortFolio Link")
+```
 
 Designed With :heart: by  [@MukeshDubey1420](https://mukeshdubeyportfolio.netlify.com/   "My PortFolio Link")
 
