@@ -11,6 +11,9 @@
 * Then flip over to the “Preview changes” tab
 Each time you switch to that tab, Github converts the Markdown that  you wrote to HTML and displays the results.
 
+    or
+* creating the Files with the `.md or .markdown` extension .   
+
 ## Learning The Basics ..
 
 ### Headings..
@@ -162,6 +165,22 @@ Here's the start of a new paragraph
 * This is the second item of the outer list.
 * And this is the third item.
 
+```
+Alternatively,
+
+- Dashes work just as well
+- And if you have sub points, put two spaces before the dash or star:
+  - Like this
+  - And this
+Check the output below.
+```
+Alternatively,
+
+- Dashes work just as well
+- And if you have sub points, put two spaces before the dash or star:
+  - Like this
+  - And this
+
 ### Code Elements and Code Blocks
 * You can have “code” elements either in-line or in a stand-alone block
 * In-line code is indicated by surrounding the word or phrase with backticks.
@@ -235,11 +254,26 @@ They also increase the accessibility of your page as they can be processed  by s
 ### Link To images
 
 * Images have a similar syntax to links.
-```![alt text](href "title")```
-
+```
+![alt text](href "title")
 For example
+![Mukesh Dubey](https://avatars1.githubusercontent.com/u/25473584?s=460&v=4  "Mukesh Dubey")
 ```
 ![Mukesh Dubey](https://avatars1.githubusercontent.com/u/25473584?s=460&v=4  "Mukesh Dubey")
 
+
+### Refer To someone By Username.
+
+* GitHub supports many extras in Markdown that help you reference and link to people. If you ever want to direct a comment at someone, you can prefix their name with an `@` symbol: Hey   @MukeshDubey1420  — love your Documentation!
+
+### TasksList
+
 ```
-![Mukesh Dubey](https://avatars1.githubusercontent.com/u/25473584?s=460&v=4  "Mukesh Dubey")
+- [x] This is a complete item
+- [ ] This is an incomplete item
+```
+
+- [x] This is a complete item(Task is Checked.)
+- [ ] This is an incomplete item(Task is unchecked.)
+
+### Emojis For Markdown.
