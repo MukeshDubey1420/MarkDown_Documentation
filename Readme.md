@@ -87,3 +87,38 @@ By convention, em tags appear in `italics` while `strong` tags appear in `bold`.
 * You can create two types of lists (just like in HTML)
  * Unordered lists:- use `*, +, or -` followed by a space.
  * Ordered lists:- use numbers followed by periods and a space.
+
+
+```
+* This is a list
+ * From here Nested List starts.
+ * Items can have multiple paragraphs.
+ * if you need them just indent by four spaces.
+
+     and have blank lines between items
+
+* Here's the end of the list
+
+Here's the start of a new paragraph
+
+1.  Here's an ordered list that follows
+2.  with multiple items
+3.  as many as you need
+
+```
+Output is as Follows.
+ 
+* This is a list
+ * From here Nested List starts.
+ * Items can have multiple paragraphs.
+ * if you need them just indent by four spaces.
+
+     and have blank lines between items
+
+* Here's the end of the list
+
+Here's the start of a new paragraph
+
+1.  Here's an ordered list that follows
+2.  with multiple items
+3.  as many as you need
