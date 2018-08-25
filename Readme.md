@@ -1,4 +1,4 @@
-### Markdown is a way to style text on the web. You control the display of the document; formatting words as **bold** or *italic*, adding images, and creating lists are just a few of the things we can do with Markdown.
+### Markdown is a way to style text on the web. You control the display of the document; formatting words as **Bold** or *italic*, adding images, and creating lists are just a few of the things we can do with Markdown.
 ## Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like `#` or `*`.
 
 #### Markdown is a **Text-to-HTML conversion tool** for web writers. Markdown allows  you to write using an *easy-to-read, easy-to-write plain text format, then convert it  to structurally valid XHTML (or HTML)*.
@@ -18,6 +18,7 @@ Each time you switch to that tab, Github converts the Markdown that  you wrote t
 
 * A heading line can start with `1 to 6 hash marks,` corresponding to HTML’s h1, h2, h3, h4, h5, and h6 tags.
 
+```
 
 # This is a `h1` Tag.
 ## This is a `h2` Tag.
@@ -25,7 +26,22 @@ Each time you switch to that tab, Github converts the Markdown that  you wrote t
 #### This is a `h4` Tag.
 ##### This is a `h5` Tag.
 ###### This is a `h6` Tag.
-<hr>
+```
+Output is shown below.
+
+# This is a `h1` Tag.
+## This is a `h2` Tag.
+### This is a `h3` Tag.
+#### This is a `h4` Tag.
+##### This is a `h5` Tag.
+###### This is a `h6` Tag.
+
+### Horizontal line
+ Using `<hr>` tag.
+ ```
+ `<hr>`
+ ```
+ <hr>
 
 * Those who have good knowledge of Frontend (HTML,CSS) They Guys can Relate This.
 
