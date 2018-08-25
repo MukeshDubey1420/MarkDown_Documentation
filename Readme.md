@@ -59,3 +59,28 @@ This Output will Look Like This ,
 > > Here’s a quote within a quote
 >
 > Here’s the text of paragraph 2 in the blockquote.
+
+### Emphasis (Bold and Italics)
+* To emphasize a phrase, surround it with asterisks or underscores.
+
+```
+I am an *Italic* Text.
+and , I am also an _Italic_ Text.
+I am **Bold** Text .
+But , I am _**Bold & Italic**_ Text.
+
+```
+Output will LOOk Like.
+
+I am an *Italic* Text.
+
+and , I am also an _Italic_ Text.
+
+I am **Bold** Text .
+
+But , I am _**Bold & Italic**_ Text.
+
+In HTML, the former will be translated as an `em` tag; the latter as a `strong` tag.
+By convention, em tags appear in `italics` while `strong` tags appear in `bold`.
+
+### Lists
