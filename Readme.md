@@ -155,9 +155,74 @@ Be sure to call the `init()` method before you call `doMyWorkForMe()`
 the ` ` is the syntax to represent a code.
 the ``` Insert Your Big Code here.. ``` is the syntax to represent a code.
 
+Stand-alone code blocks are indicated by four spaces at the start of the line
 
+```javascript
+def check(dir: Path) = {  if (!exists(dir)) {
+error(s"Directory: <$dir> does not exist.")
+}
+}
+
+
+```python
+print("Hello World!!!")
+name = input("Enter Your Name ")
+if len(name)> 2:
+  print("Hello" + name + "Welcome tO Markdown tutorial")
+  exit()``
 ```
+
+
 * Be sure to call the `init()` method before you call `doMyWorkForMe()`
 * the `  `  is the syntax to represent a code.
 
 * the ``` Insert Your Big Code here.. ``` is the syntax to represent a code.
+
+``` javascript
+def check(dir: Path) = {  if (!exists(dir)) {
+error(s"Directory: <$dir> does not exist.")
+}
+}
+
+```
+
+```python
+print("Hello World!!!")
+name = input("Enter Your Name ")
+if len(name)> 2:
+  print("Hello" + name + "Welcome tO Markdown tutorial")
+  exit()
+```
+
+
+### Links
+* Markdown supports two styles of links. I’ll show you the most common one.
+* To create a link, you indicate the text of the link, and then the link itself
+* The `text goes in square brackets [], the link goes in parentheses()`.
+
+```
+Check out My [GitHub](https://github.com/MukeshDubey1420) for a cool way to view git repos.
+```
+Check out My [GitHub](https://github.com/MukeshDubey1420) for a cool way to view git repos.
+
+* You can add a `link title` if you want
+```
+Check out [GitHub](https://github.com/MukeshDubey1420 "It's cool!") for a cool way to view git repos.
+```
+Check out [GitHub](https://github.com/MukeshDubey1420 "It's cool!") for a cool way to view git repos.
+
+* Link titles appear as a `tool-tip in web browsers when you hover over a link`.
+They also increase the accessibility of your page as they can be processed  by screen readers and other similar tools.
+
+
+### Link To images
+
+* Images have a similar syntax to links.
+```![alt text](href "title")```
+
+For example
+```
+![Team Decider](https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FDZqznVPVAAAEvF_.jpg&imgrefurl=https%3A%2F%2Ftwitter.com%2FMukeshDubey1420%2Fstatus%2F980293391668756481&docid=yq6j10KFx_TtCM&tbnid=kerUp76GqMBSCM%3A&vet=10ahUKEwikuarVvofdAhXVV30KHS2wAaQQMwg3KAQwBA..i&w=1200&h=900&itg=1&bih=943&biw=1920&q=mukeshdubey1420&ved=0ahUKEwikuarVvofdAhXVV30KHS2wAaQQMwg3KAQwBA&iact=mrc&uact=8 “Team Decider!")
+
+```
+![TeamDecider](https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FDZqznVPVAAAEvF_.jpg&imgrefurl=https%3A%2F%2Ftwitter.com%2FMukeshDubey1420%2Fstatus%2F980293391668756481&docid=yq6j10KFx_TtCM&tbnid=kerUp76GqMBSCM%3A&vet=10ahUKEwikuarVvofdAhXVV30KHS2wAaQQMwg3KAQwBA..i&w=1200&h=900&itg=1&bih=943&biw=1920&q=mukeshdubey1420&ved=0ahUKEwikuarVvofdAhXVV30KHS2wAaQQMwg3KAQwBA&iact=mrc&uact=8)
