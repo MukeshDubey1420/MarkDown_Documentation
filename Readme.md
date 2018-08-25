@@ -89,6 +89,8 @@ and , I am also an _Italic_ Text.
 I am **Bold** Text .
 But , I am _**Bold & Italic**_ Text.
 
+<del>I am Strike Through tag</del>
+
 ```
 Output will LOOk Like.
 
@@ -99,6 +101,8 @@ and , I am also an _Italic_ Text.
 I am **Bold** Text .
 
 But , I am _**Bold & Italic**_ Text.
+
+<del>I am Strike Through tag</del>
 
 In HTML, the former will be translated as an `em` tag; the latter as a `strong` tag.
 By convention, em tags appear in `italics` while `strong` tags appear in `bold`.
@@ -188,10 +192,12 @@ Alternatively,
 ```
 Be sure to call the `init()` method before you call `doMyWorkForMe()`
 
-the ` ` is the syntax to represent a code.
-the ``` Insert Your Big Code here.. ``` is the syntax to represent a code.
+the ` ` is the syntax to represent a Inline code.
+the ``` Insert Your Big Code here.. ``` is the syntax to represent a code Block.
 
 Stand-alone code blocks are indicated by four spaces at the start of the line
+
+### Syntax Highlighting
 
 ```javascript
 def check(dir: Path) = {  if (!exists(dir)) {
@@ -209,10 +215,10 @@ if len(name)> 2:
 ```
 
 
-* Be sure to call the `init()` method before you call `doMyWorkForMe()`
-* the `  `  is the syntax to represent a code.
+* the ` ` is the syntax to represent a Inline code.
+* the ``` Insert Your Big Code here.. ``` is the syntax to represent a code Block.
 
-* the ``` Insert Your Big Code here.. ``` is the syntax to represent a code.
+### Syntax Highlighting
 
 ``` javascript
 def check(dir: Path) = {  if (!exists(dir)) {
@@ -265,15 +271,38 @@ For example
 ### Refer To someone By Username.
 
 * GitHub supports many extras in Markdown that help you reference and link to people. If you ever want to direct a comment at someone, you can prefix their name with an `@` symbol: Hey   @MukeshDubey1420  — love your Documentation!
+* Typing an `@` symbol, followed by a username, will notify that person to come and view the comment. This is called an `“@mention”`, because you’re mentioning the individual. You can also `@mention` teams within an organization.
 
 ### TasksList
 
 ```
 - [x] This is a complete item
 - [ ] This is an incomplete item
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
 ```
 
 - [x] This is a complete item(Task is Checked.)
 - [ ] This is an incomplete item(Task is unchecked.)
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+### Tables
+* You can create tables by assembling a list of words and dividing them with `hyphens -` **(for the first row)**, and then **separating each column** with a `pipe "|"` symbol:
+
+```
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+```
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 ### Emojis For Markdown.
