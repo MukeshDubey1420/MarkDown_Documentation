@@ -127,6 +127,7 @@ Here's the start of a new paragraph
 
 * You can embed one list inside another, as many levels deep as you need  (within reason). Just prefix each level with four spaces in front of the list  marker. Level 1 is a normal list. Level 2 lists have four spaces at the start of  their lines. Level 3 lists have eight spaces at the start of their lines, etc.
 
+```
 * This is a list.
   * This is an embedded list.
      1. that is indicated by adding.
@@ -134,3 +135,29 @@ Here's the start of a new paragraph
   * Go as deep as you need.
 * This is the second item of the outer list.
 * And this is the third item.
+
+```
+* This is a list.
+  * This is an embedded list.
+     1. that is indicated by adding.
+     2. four spaces in front of the list marker.
+  * Go as deep as you need.
+* This is the second item of the outer list.
+* And this is the third item.
+
+### Code Elements and Code Blocks
+* You can have “code” elements either in-line or in a stand-alone block
+* In-line code is indicated by surrounding the word or phrase with backticks.
+
+```
+Be sure to call the `init()` method before you call `doMyWorkForMe()`
+
+the ` ` is the syntax to represent a code.
+the ``` Insert Your Big Code here.. ``` is the syntax to represent a code.
+
+
+```
+* Be sure to call the `init()` method before you call `doMyWorkForMe()`
+* the `  `  is the syntax to represent a code.
+
+* the ``` Insert Your Big Code here.. ``` is the syntax to represent a code.
